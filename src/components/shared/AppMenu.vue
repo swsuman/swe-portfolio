@@ -53,4 +53,8 @@ export default {
   font-display: auto;
   font-family: monospace, monospace;
 }
+
+.navbar-nav {
+  text-transform: capitalize;
+}
 </style>

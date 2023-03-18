@@ -6,7 +6,7 @@
           <img
             :src="require(`@/assets/images/${award.image}`)"
             :alt="award.title"
-            class="img-fluid rounded-start"
+            class="img-award rounded-start"
             data-aos="fade-up"
             data-aos-delay="100"
             data-aos-anchor-placement="top-bottom"
@@ -56,5 +56,9 @@ export default {
   width: 212px;
   -moz-box-shadow-bottom: 4px 4px 4px black;
   -webkit-box-shadow-bottom: 4px 4px 4px black;
+}
+.img-award {
+  width: 100%;
+  height: auto;
 }
 </style>

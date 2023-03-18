@@ -13,4 +13,8 @@ export default {
   props: ["src", "alt"],
 };
 </script>
-<style></style>
+<style lang="scss">
+.img-fluid {
+  height: 400px;
+}
+</style>
